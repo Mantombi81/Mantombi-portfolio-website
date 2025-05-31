@@ -1,0 +1,41 @@
+body {
+    /* changing font of the entire site on our body */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background:#007bff;
+    color:#ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: white;
+    /* does curves on the radius */
+    border-radius: 15px;
+    /* has 4 attributes= horizontal effect, vertical, blur radius and blur color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+/* calling a class = .about and for id= #about */
+.about {
+    padding: 20px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+}
