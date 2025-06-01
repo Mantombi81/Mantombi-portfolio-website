@@ -8,8 +8,15 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
     <!-- root element of your section -->
-    <header>
+    <header id="top">
         <h1>Hello, I'm Mantombi Mcira</h1>
         <p>Welcome to my portfolio website! 
             Glad to see you here.</p>
@@ -27,18 +34,49 @@
     </section>
 
 <!-- another section displaying what projects I have worked on-->
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal website to showcase my 
+                projects, skills and background.</p>
+                <a href="https://mantombi.netlify.app/" target="_blank">View project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Small shops Website</h3>
+            <p>A personal website to showcase my
+                projects, skills and background.</p>
+            <a href="#">View project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>School Diary Website</h3>
+            <p>A personal website to showcase my
+                projects, skills and background.</p>
+            <a href="#">View project</a>
+        </div>
+
         <!-- have a list since its multiple things to list -->
-        <ul>
+        <!-- <ul>
             <li>Portfolio Website</li>
             <li>Small shops Website </li>
             <li>School Diary Website</li>
-        </ul>
+        </ul> -->
     </section>
     <!-- footer is the bottom section of your site usually adds copyrights, contact details  -->
     <footer>
         <p>Contact me on: +27 73 222 4824, Email: mantombi.mathe@gmail.com</p>
+        <p> &#169; 2025 Mantombi Mathe</p>
+        <!-- add a container to add social links-->
+         <div class="social-links" >
+            <a href="www.linkedin.com/in/mantombi-mathe" 
+            target="_blank">Linkedin</a>
+
+            <a href="https://github.com/Mantombi81" 
+            target="_blank">Github</a>
+         </div>
     </footer>
 </body>
 </html>
